@@ -2,7 +2,7 @@
   required_providers {
     aci = {
       source = "CiscoDevNet/aci"
-      version = "0.4.0"
+      version = "0.5.1"
     }
   }
 }
@@ -18,6 +18,5 @@
     # cisco-aci url
     url      = var.aci_apic
     insecure = true
-    version = "0.4.0"
     
 }
