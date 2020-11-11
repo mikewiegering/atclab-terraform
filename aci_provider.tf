@@ -2,7 +2,7 @@
   required_providers {
     aci = {
       source = "CiscoDevNet/aci"
-      version = "0.5.1"
+      version = "0.4.1"
     }
   }
 }
