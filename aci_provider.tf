@@ -1,3 +1,15 @@
+ terraform {
+  required_providers {
+    aci = {
+      source = "CiscoDevNet/aci"
+      version = "0.5.1"
+    }
+  }
+}
+ 
+ 
+ 
+ 
  provider "aci" {
     # cisco-aci user name
     username = var.aci_username
@@ -6,6 +18,6 @@
     # cisco-aci url
     url      = var.aci_apic
     insecure = true
-    source = "CiscoDevNet/aci"
+    
     
 }
