@@ -18,6 +18,6 @@
     # cisco-aci url
     url      = var.aci_apic
     insecure = true
-    
+    version = "0.4.1"
     
 }
